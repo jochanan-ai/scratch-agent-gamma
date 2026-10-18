@@ -1,0 +1,1 @@
+P4b: T0 path; the agent approval must not unlock the merge.
