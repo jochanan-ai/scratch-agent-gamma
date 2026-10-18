@@ -1,0 +1,10 @@
+# CODEOWNERS - scratch-agent-gamma (onboarded 2026-10-18)
+# Default: the reviewer agent owns everything, so its approvals satisfy
+# require-code-owner-review and the factory can auto-merge T2 PRs.
+* @jochanan-ai-reviewer
+
+# T0/T1 owner-gated paths: agent approvals can NEVER merge these
+# (merge-policy s1; the watchdog refuses them regardless).
+/.github/ @jochanan-local
+/infra/ @jochanan-local
+/scripts/ @jochanan-local
